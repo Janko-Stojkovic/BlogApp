@@ -46,24 +46,7 @@ jQuery(document).ready(function($) {
   });
 });
 
-//preloader
 
-// $(window).ready(() => {
-//   setTimeout(() => {
-//       $('.loading').animate({
-//           opacity: 0
-//       }, 500)
-//   }, 2000)
-
-//   setTimeout(() => {
-//       $('.loading').remove()
-//   }, 3000)
-// })
-
-
-
-
-// SHOP PAGE
 
 $(document).ready(function() {
   $('input[name="chkTop"]').change(function(){

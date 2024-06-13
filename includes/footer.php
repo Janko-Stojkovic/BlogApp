@@ -7,7 +7,7 @@
         <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-brands fa-instagram mx-2"></i></a>
         <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-brands fa-facebook mx-2"></i></a>
         <a href="https://www.youtube.com/" target="_blank"><i class="fa fa-brands fa-youtube mx-2"></i></a>
-        <a href="makoDoc.pdf" target="_blank"><i class="fa fa-solid fa-file mx-2"></i></a>
+        <a href="Documentation.pdf" target="_blank"><i class="fa fa-solid fa-file mx-2"></i></a>
       </div>
             
       <div class="col-lg-6 col-md-12 footer_fields" style="border-left: 1px solid black">
