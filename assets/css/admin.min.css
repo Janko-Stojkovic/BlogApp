@@ -1,0 +1,30 @@
+.user-panel a{cursor:default}.layout-fixed .main-sidebar-custom .sidebar {
+                                 height: calc(100% - ((3.5rem + 5rem) + 1px))!important;
+                             }td{vertical-align:middle!important}.large-column{min-width:170px}.standard-form{width:500px}@media screen and (max-width:767px){.standard-form{width:100%}}.border-incorrect{border:1px solid red}.error-message{color:red}#actionsForm{width:600px}@media screen and (max-width:991px){#actionsForm{width:100%}}.food-image,.restaurant-image{width:150px;margin-left:auto;margin-right:auto}.food-image{width:70px}
+
+                             .pagination {
+                                display: inline-block !important;
+                              }
+                              
+                              .pagination a {
+                                color: black !important;
+                                float: left !important;
+                                padding: 8px 16px !important;
+                                text-decoration: none !important;
+                                transition: background-color .3s !important;
+                                border: 1px solid #ddd !important;
+                              }
+                              
+                              .pagination a.active {
+                                background-color: #007bff !important;
+                                color: white;
+                                border: 1px solid #007bff !important;
+                              }
+                              
+                              .pagination a:hover:not(.active) {background-color: #ddd !important;}
+                              .brand-text{
+                                font-family: "Candal", sans-serif !important;
+    font-weight: 400 !important;
+    font-style: normal !important;
+                              }
+                             

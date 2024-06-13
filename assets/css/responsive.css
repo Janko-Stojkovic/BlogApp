@@ -1,0 +1,54 @@
+@media screen and (max-width: 769px){
+    .cover-text{
+        top: 20%;
+    }
+    .cart-img{
+        display: none;
+    }
+    .product-item{
+        display: block;
+    }
+    .product-info{
+        margin: 0;
+    }
+
+}
+@media screen and (max-width: 992px){
+    .footerLogo img{
+        width: 40%;
+    }
+    .footer_fields{
+        border: none !important;
+        margin-bottom: 50px;
+    }
+    .navbar-brand{
+        width: 30%;
+    }
+    .right-sidebar{
+        margin-left: 0px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 426px){
+    .log-in.section{
+        padding: 20px;
+    }
+    .heading h2 {
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+    .heading{
+        margin: 0px;
+    }
+    .underline{
+        width: 60px;
+    }
+    .lr-form-section input::placeholder{
+        font-size: 10px;
+    }
+}
+@media  screen and (max-width: 321px) {
+    .heading h2 {
+        letter-spacing: 0px;
+    }
+}
