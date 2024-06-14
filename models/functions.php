@@ -2,7 +2,7 @@
     // funkcija za citanje podataka iz baze
     function vratiSve($nazivTabele){
         global $conn;
-        $upit = "SELECT * FROM $nazivTabele"; 
+        $upit = "SELECT * FROM $nazivTabele where IsActive = 1"; 
         $podaci = $conn-> query($upit)->fetchAll();
         return $podaci;
     }

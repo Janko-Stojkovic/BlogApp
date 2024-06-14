@@ -5,7 +5,7 @@ $blogQuery = "SELECT b.id as blogId, b.blogTitle as title, b.blogContent as blog
                 from blogs as b 
                 inner join users as u on b.UserId = u.Id 
                 inner join topics as t on b.TopicId = t.Id
-                WHERE b.id = :id";
+                WHERE b.id = :id and where IsActive = 1";
 
 $stmt = $conn->prepare($blogQuery);
 $stmt ->execute([
